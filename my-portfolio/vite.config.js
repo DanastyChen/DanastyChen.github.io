@@ -10,5 +10,5 @@ export default defineConfig({
   ],
   // 如果您要部署到 username.github.io，base 通常是 '/'
   // 如果是 username.github.io/repo-name，base 应该是 '/repo-name/'
-  base: '/my-portfolio/', 
+  base: '/', 
 })
