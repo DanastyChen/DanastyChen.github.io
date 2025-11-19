@@ -138,10 +138,10 @@ const Navbar = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 transition-all duration-300 group-hover:w-full" />
             </a>
           ))}
-          <button className="bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 text-white">
+          <a href="https://github.com/danastychen" target="_blank" rel="noopener noreferrer" className="bg-white/5 hover:bg-white/10 border border-white/10 px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 text-white">
             <Github size={16} />
             <span>GitHub</span>
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
