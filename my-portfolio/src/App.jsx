@@ -425,9 +425,9 @@ const Footer = () => {
           <div className="flex flex-col justify-center space-y-6">
             <div className="flex gap-4">
               {[
-                { icon: <Twitter size={24} />, href: "#", label: "Twitter" },
-                { icon: <Github size={24} />, href: "#", label: "GitHub" },
-                { icon: <Linkedin size={24} />, href: "#", label: "LinkedIn" },
+                { icon: <Twitter size={24} />, href: "https://x.com/Elonepoch", label: "Twitter" },
+                { icon: <Github size={24} />, href: "https://github.com/DanastyChen", label: "GitHub" },
+                { icon: <Linkedin size={24} />, href: "https://www.linkedin.com/", label: "LinkedIn" },
               ].map((social, idx) => (
                 <a 
                   key={idx} 
@@ -456,7 +456,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-white/5 text-slate-500 text-sm">
-          <p>&copy; 2023 ENTROPY Chen. Built with React & Tailwind.</p>
+          <p>&copy; 2025 ENTROPY Chen. Built with React & Tailwind.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>
